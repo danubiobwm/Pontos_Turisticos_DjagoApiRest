@@ -19,7 +19,7 @@ from django.urls import path
 from rest_framework import routers
 from core.api.viewsets import PontoTuristicoViewSet
 
-router=routers.DefaultRouter()
+router = routers.DefaultRouter()
 router.register(r'pontoturistico', PontoTuristicoViewSet)
 
 urlpatterns = [
