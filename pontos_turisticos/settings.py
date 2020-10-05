@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'comentarios',
     'avaliacoes',
     'enderecos',
-    'django_filters'
+    'django_filters',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
